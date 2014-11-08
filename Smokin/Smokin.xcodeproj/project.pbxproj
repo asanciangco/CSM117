@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAE052FE1A0D9D5B00763314 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE052FD1A0D9D5B00763314 /* Foundation.framework */; };
+		FAE053001A0D9D5B00763314 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE052FF1A0D9D5B00763314 /* CoreGraphics.framework */; };
+		FAE053021A0D9D5B00763314 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE053011A0D9D5B00763314 /* UIKit.framework */; };
+		FAE053081A0D9D5B00763314 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAE053061A0D9D5B00763314 /* InfoPlist.strings */; };
+		FAE0530A1A0D9D5B00763314 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE053091A0D9D5B00763314 /* main.m */; };
+		FAE0530E1A0D9D5B00763314 /* SmokinAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE0530D1A0D9D5B00763314 /* SmokinAppDelegate.m */; };
+		FAE053111A0D9D5B00763314 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE0530F1A0D9D5B00763314 /* Main_iPhone.storyboard */; };
+		FAE053141A0D9D5B00763314 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE053121A0D9D5B00763314 /* Main_iPad.storyboard */; };
+		FAE053171A0D9D5B00763314 /* SmokinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE053161A0D9D5B00763314 /* SmokinViewController.m */; };
+		FAE053191A0D9D5B00763314 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE053181A0D9D5B00763314 /* Images.xcassets */; };
+		FAE053201A0D9D5B00763314 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE0531F1A0D9D5B00763314 /* XCTest.framework */; };
+		FAE053211A0D9D5B00763314 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE052FD1A0D9D5B00763314 /* Foundation.framework */; };
+		FAE053221A0D9D5B00763314 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE053011A0D9D5B00763314 /* UIKit.framework */; };
+		FAE0532A1A0D9D5B00763314 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAE053281A0D9D5B00763314 /* InfoPlist.strings */; };
+		FAE0532C1A0D9D5B00763314 /* SmokinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE0532B1A0D9D5B00763314 /* SmokinTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAE053231A0D9D5B00763314 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAE052F21A0D9D5B00763314 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE052F91A0D9D5B00763314;
+			remoteInfo = Smokin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAE052FA1A0D9D5B00763314 /* Smokin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smokin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE052FD1A0D9D5B00763314 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAE052FF1A0D9D5B00763314 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FAE053011A0D9D5B00763314 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FAE053051A0D9D5B00763314 /* Smokin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Smokin-Info.plist"; sourceTree = "<group>"; };
+		FAE053071A0D9D5B00763314 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAE053091A0D9D5B00763314 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAE0530B1A0D9D5B00763314 /* Smokin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smokin-Prefix.pch"; sourceTree = "<group>"; };
+		FAE0530C1A0D9D5B00763314 /* SmokinAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmokinAppDelegate.h; sourceTree = "<group>"; };
+		FAE0530D1A0D9D5B00763314 /* SmokinAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmokinAppDelegate.m; sourceTree = "<group>"; };
+		FAE053101A0D9D5B00763314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		FAE053131A0D9D5B00763314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		FAE053151A0D9D5B00763314 /* SmokinViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmokinViewController.h; sourceTree = "<group>"; };
+		FAE053161A0D9D5B00763314 /* SmokinViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmokinViewController.m; sourceTree = "<group>"; };
+		FAE053181A0D9D5B00763314 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAE0531E1A0D9D5B00763314 /* SmokinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmokinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE0531F1A0D9D5B00763314 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FAE053271A0D9D5B00763314 /* SmokinTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmokinTests-Info.plist"; sourceTree = "<group>"; };
+		FAE053291A0D9D5B00763314 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAE0532B1A0D9D5B00763314 /* SmokinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmokinTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAE052F71A0D9D5B00763314 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE053001A0D9D5B00763314 /* CoreGraphics.framework in Frameworks */,
+				FAE053021A0D9D5B00763314 /* UIKit.framework in Frameworks */,
+				FAE052FE1A0D9D5B00763314 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE0531B1A0D9D5B00763314 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE053201A0D9D5B00763314 /* XCTest.framework in Frameworks */,
+				FAE053221A0D9D5B00763314 /* UIKit.framework in Frameworks */,
+				FAE053211A0D9D5B00763314 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAE052F11A0D9D5B00763314 = {
+			isa = PBXGroup;
+			children = (
+				FAE053031A0D9D5B00763314 /* Smokin */,
+				FAE053251A0D9D5B00763314 /* SmokinTests */,
+				FAE052FC1A0D9D5B00763314 /* Frameworks */,
+				FAE052FB1A0D9D5B00763314 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAE052FB1A0D9D5B00763314 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAE052FA1A0D9D5B00763314 /* Smokin.app */,
+				FAE0531E1A0D9D5B00763314 /* SmokinTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAE052FC1A0D9D5B00763314 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAE052FD1A0D9D5B00763314 /* Foundation.framework */,
+				FAE052FF1A0D9D5B00763314 /* CoreGraphics.framework */,
+				FAE053011A0D9D5B00763314 /* UIKit.framework */,
+				FAE0531F1A0D9D5B00763314 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAE053031A0D9D5B00763314 /* Smokin */ = {
+			isa = PBXGroup;
+			children = (
+				FAE0530C1A0D9D5B00763314 /* SmokinAppDelegate.h */,
+				FAE0530D1A0D9D5B00763314 /* SmokinAppDelegate.m */,
+				FAE0530F1A0D9D5B00763314 /* Main_iPhone.storyboard */,
+				FAE053121A0D9D5B00763314 /* Main_iPad.storyboard */,
+				FAE053151A0D9D5B00763314 /* SmokinViewController.h */,
+				FAE053161A0D9D5B00763314 /* SmokinViewController.m */,
+				FAE053181A0D9D5B00763314 /* Images.xcassets */,
+				FAE053041A0D9D5B00763314 /* Supporting Files */,
+			);
+			path = Smokin;
+			sourceTree = "<group>";
+		};
+		FAE053041A0D9D5B00763314 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAE053051A0D9D5B00763314 /* Smokin-Info.plist */,
+				FAE053061A0D9D5B00763314 /* InfoPlist.strings */,
+				FAE053091A0D9D5B00763314 /* main.m */,
+				FAE0530B1A0D9D5B00763314 /* Smokin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAE053251A0D9D5B00763314 /* SmokinTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAE0532B1A0D9D5B00763314 /* SmokinTests.m */,
+				FAE053261A0D9D5B00763314 /* Supporting Files */,
+			);
+			path = SmokinTests;
+			sourceTree = "<group>";
+		};
+		FAE053261A0D9D5B00763314 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAE053271A0D9D5B00763314 /* SmokinTests-Info.plist */,
+				FAE053281A0D9D5B00763314 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAE052F91A0D9D5B00763314 /* Smokin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE0532F1A0D9D5B00763314 /* Build configuration list for PBXNativeTarget "Smokin" */;
+			buildPhases = (
+				FAE052F61A0D9D5B00763314 /* Sources */,
+				FAE052F71A0D9D5B00763314 /* Frameworks */,
+				FAE052F81A0D9D5B00763314 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Smokin;
+			productName = Smokin;
+			productReference = FAE052FA1A0D9D5B00763314 /* Smokin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAE0531D1A0D9D5B00763314 /* SmokinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE053321A0D9D5B00763314 /* Build configuration list for PBXNativeTarget "SmokinTests" */;
+			buildPhases = (
+				FAE0531A1A0D9D5B00763314 /* Sources */,
+				FAE0531B1A0D9D5B00763314 /* Frameworks */,
+				FAE0531C1A0D9D5B00763314 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAE053241A0D9D5B00763314 /* PBXTargetDependency */,
+			);
+			name = SmokinTests;
+			productName = SmokinTests;
+			productReference = FAE0531E1A0D9D5B00763314 /* SmokinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAE052F21A0D9D5B00763314 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Smokin;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = CS117;
+				TargetAttributes = {
+					FAE0531D1A0D9D5B00763314 = {
+						TestTargetID = FAE052F91A0D9D5B00763314;
+					};
+				};
+			};
+			buildConfigurationList = FAE052F51A0D9D5B00763314 /* Build configuration list for PBXProject "Smokin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAE052F11A0D9D5B00763314;
+			productRefGroup = FAE052FB1A0D9D5B00763314 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAE052F91A0D9D5B00763314 /* Smokin */,
+				FAE0531D1A0D9D5B00763314 /* SmokinTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAE052F81A0D9D5B00763314 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE053141A0D9D5B00763314 /* Main_iPad.storyboard in Resources */,
+				FAE053191A0D9D5B00763314 /* Images.xcassets in Resources */,
+				FAE053111A0D9D5B00763314 /* Main_iPhone.storyboard in Resources */,
+				FAE053081A0D9D5B00763314 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE0531C1A0D9D5B00763314 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE0532A1A0D9D5B00763314 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAE052F61A0D9D5B00763314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE0530A1A0D9D5B00763314 /* main.m in Sources */,
+				FAE053171A0D9D5B00763314 /* SmokinViewController.m in Sources */,
+				FAE0530E1A0D9D5B00763314 /* SmokinAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE0531A1A0D9D5B00763314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE0532C1A0D9D5B00763314 /* SmokinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAE053241A0D9D5B00763314 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAE052F91A0D9D5B00763314 /* Smokin */;
+			targetProxy = FAE053231A0D9D5B00763314 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAE053061A0D9D5B00763314 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE053071A0D9D5B00763314 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FAE0530F1A0D9D5B00763314 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE053101A0D9D5B00763314 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		FAE053121A0D9D5B00763314 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE053131A0D9D5B00763314 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		FAE053281A0D9D5B00763314 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE053291A0D9D5B00763314 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAE0532D1A0D9D5B00763314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAE0532E1A0D9D5B00763314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAE053301A0D9D5B00763314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Smokin/Smokin-Prefix.pch";
+				INFOPLIST_FILE = "Smokin/Smokin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FAE053311A0D9D5B00763314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Smokin/Smokin-Prefix.pch";
+				INFOPLIST_FILE = "Smokin/Smokin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FAE053331A0D9D5B00763314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Smokin.app/Smokin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Smokin/Smokin-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SmokinTests/SmokinTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FAE053341A0D9D5B00763314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Smokin.app/Smokin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Smokin/Smokin-Prefix.pch";
+				INFOPLIST_FILE = "SmokinTests/SmokinTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAE052F51A0D9D5B00763314 /* Build configuration list for PBXProject "Smokin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE0532D1A0D9D5B00763314 /* Debug */,
+				FAE0532E1A0D9D5B00763314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE0532F1A0D9D5B00763314 /* Build configuration list for PBXNativeTarget "Smokin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE053301A0D9D5B00763314 /* Debug */,
+				FAE053311A0D9D5B00763314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAE053321A0D9D5B00763314 /* Build configuration list for PBXNativeTarget "SmokinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE053331A0D9D5B00763314 /* Debug */,
+				FAE053341A0D9D5B00763314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAE052F21A0D9D5B00763314 /* Project object */;
+}
