@@ -22,6 +22,7 @@
 		FAE053221A0D9D5B00763314 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE053011A0D9D5B00763314 /* UIKit.framework */; };
 		FAE0532A1A0D9D5B00763314 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAE053281A0D9D5B00763314 /* InfoPlist.strings */; };
 		FAE0532C1A0D9D5B00763314 /* SmokinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE0532B1A0D9D5B00763314 /* SmokinTests.m */; };
+		FAFF44E81A0DA8E90017C33E /* fire.png in Resources */ = {isa = PBXBuildFile; fileRef = FAFF44E71A0DA8E90017C33E /* fire.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		FAE053271A0D9D5B00763314 /* SmokinTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmokinTests-Info.plist"; sourceTree = "<group>"; };
 		FAE053291A0D9D5B00763314 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FAE0532B1A0D9D5B00763314 /* SmokinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmokinTests.m; sourceTree = "<group>"; };
+		FAFF44E71A0DA8E90017C33E /* fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fire.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 		FAE053041A0D9D5B00763314 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FAFF44E71A0DA8E90017C33E /* fire.png */,
 				FAE053051A0D9D5B00763314 /* Smokin-Info.plist */,
 				FAE053061A0D9D5B00763314 /* InfoPlist.strings */,
 				FAE053091A0D9D5B00763314 /* main.m */,
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAE053141A0D9D5B00763314 /* Main_iPad.storyboard in Resources */,
+				FAFF44E81A0DA8E90017C33E /* fire.png in Resources */,
 				FAE053191A0D9D5B00763314 /* Images.xcassets in Resources */,
 				FAE053111A0D9D5B00763314 /* Main_iPhone.storyboard in Resources */,
 				FAE053081A0D9D5B00763314 /* InfoPlist.strings in Resources */,
@@ -471,6 +475,7 @@
 				FAE053311A0D9D5B00763314 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAE053321A0D9D5B00763314 /* Build configuration list for PBXNativeTarget "SmokinTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +484,7 @@
 				FAE053341A0D9D5B00763314 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
