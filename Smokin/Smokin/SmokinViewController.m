@@ -99,10 +99,11 @@
         self.statusLabel.text = @"Status: Triggered";
     else
         self.statusLabel.text = @"Status: Not Triggered";
-    
+
     NSDate *date = [NSDate date];
     self.lastCheckedLabel.text = [NSString stringWithFormat:@"Last checked: %@", [self.dateFormatter stringFromDate:date]];
     [[NSUserDefaults standardUserDefaults] setObject:date forKey:@"lastChecked"];
+    [[NSUserDefaults standardUserDefaults] setBool:status forKey:@"lastStatus"];
 }
 
 @end
