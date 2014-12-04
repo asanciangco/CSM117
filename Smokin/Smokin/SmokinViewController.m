@@ -69,7 +69,8 @@
     localNotification.alertBody = @"DETECTOR TRIGGERED!\nDectorID: TEST_LIVINGROOM_123";
     localNotification.timeZone = [NSTimeZone defaultTimeZone];
     [[UIApplication sharedApplication] scheduleLocalNotification:localNotification];
-    
+
+    status = YES;
     [self testHelperMethod];
 }
 
