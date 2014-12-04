@@ -38,7 +38,7 @@
     else
         self.lastCheckedLabel.text = @"Last checked: Never";
     
-    self.activityView=[[UIActivityIndicatorView alloc]     initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
+    self.activityView=[[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
     
     self.activityView.center=self.view.center;
     
@@ -52,10 +52,21 @@
     NSDate *date = [NSDate date];
     self.lastCheckedLabel.text = [NSString stringWithFormat:@"Last checked: %@", [self.dateFormatter stringFromDate:date]];
     [[NSUserDefaults standardUserDefaults] setObject:date forKey:@"lastChecked"];
- 
+    
     [self setStatus];
     
 }
+
+- (IBAction)leftTestButtonPressed:(id)sender
+{
+    UILocalNotification* localNotification = [[UILocalNotification alloc] init];
+    localNotification.fireDate = [NSDate dateWithTimeIntervalSinceNow:1];
+    localNotification.alertBody = @"DETECTOR TRIGGERED!\nDectorID: TEST_LIVINGROOM_123";
+    localNotification.timeZone = [NSTimeZone defaultTimeZone];
+    [[UIApplication sharedApplication] scheduleLocalNotification:localNotification];
+}
+
+
 
 - (void) setStatus
 {
