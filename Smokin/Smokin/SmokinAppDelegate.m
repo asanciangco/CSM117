@@ -44,11 +44,7 @@
 {
     UIApplicationState state = [application applicationState];
     if (state == UIApplicationStateActive) {
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"ALERT!"
-                                                        message:notification.alertBody
-                                                       delegate:self cancelButtonTitle:@"OK"
-                                              otherButtonTitles:nil];
-        [alert show];
+        [self fetchedData:notification];
     }
     
     // Set icon badge number to zero
@@ -81,5 +77,29 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+- (void)fetchedData:(id)responseData {
+    
+    //parse out the json data
+    NSError* error;
+    NSDictionary* json = [NSJSONSerialization
+                          JSONObjectWithData:responseData
+                          options:kNilOptions
+                          error:&error];
+    
+    NSString* statusReturned = [json objectForKey:@"status"];
+    NSString* timesampReturned = [json objectForKey:@"time"];
+    NSString* postNot = [json objectForKey:@"post_notification"];
+    
+    if(postNot && [postNot isEqualToString:@"True"])
+    {
+        UILocalNotification* localNotification = [[UILocalNotification alloc] init];
+        localNotification.fireDate = [NSDate dateWithTimeIntervalSinceNow:0];
+        localNotification.alertBody = @"DETECTOR TRIGGERED!\nDectorID: TEST_LIVINGROOM_123";
+        localNotification.timeZone = [NSTimeZone defaultTimeZone];
+        [[UIApplication sharedApplication] scheduleLocalNotification:localNotification];
+    }
+}
+
 
 @end

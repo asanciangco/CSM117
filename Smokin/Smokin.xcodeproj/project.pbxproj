@@ -14,7 +14,6 @@
 		FAE0530A1A0D9D5B00763314 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE053091A0D9D5B00763314 /* main.m */; };
 		FAE0530E1A0D9D5B00763314 /* SmokinAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE0530D1A0D9D5B00763314 /* SmokinAppDelegate.m */; };
 		FAE053111A0D9D5B00763314 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE0530F1A0D9D5B00763314 /* Main_iPhone.storyboard */; };
-		FAE053141A0D9D5B00763314 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE053121A0D9D5B00763314 /* Main_iPad.storyboard */; };
 		FAE053171A0D9D5B00763314 /* SmokinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE053161A0D9D5B00763314 /* SmokinViewController.m */; };
 		FAE053191A0D9D5B00763314 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE053181A0D9D5B00763314 /* Images.xcassets */; };
 		FAE053201A0D9D5B00763314 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE0531F1A0D9D5B00763314 /* XCTest.framework */; };
@@ -47,7 +46,6 @@
 		FAE0530C1A0D9D5B00763314 /* SmokinAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmokinAppDelegate.h; sourceTree = "<group>"; };
 		FAE0530D1A0D9D5B00763314 /* SmokinAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmokinAppDelegate.m; sourceTree = "<group>"; };
 		FAE053101A0D9D5B00763314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		FAE053131A0D9D5B00763314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		FAE053151A0D9D5B00763314 /* SmokinViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmokinViewController.h; sourceTree = "<group>"; };
 		FAE053161A0D9D5B00763314 /* SmokinViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmokinViewController.m; sourceTree = "<group>"; };
 		FAE053181A0D9D5B00763314 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -119,7 +117,6 @@
 				FAE0530C1A0D9D5B00763314 /* SmokinAppDelegate.h */,
 				FAE0530D1A0D9D5B00763314 /* SmokinAppDelegate.m */,
 				FAE0530F1A0D9D5B00763314 /* Main_iPhone.storyboard */,
-				FAE053121A0D9D5B00763314 /* Main_iPad.storyboard */,
 				FAE053151A0D9D5B00763314 /* SmokinViewController.h */,
 				FAE053161A0D9D5B00763314 /* SmokinViewController.m */,
 				FAE053181A0D9D5B00763314 /* Images.xcassets */,
@@ -235,7 +232,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAE053141A0D9D5B00763314 /* Main_iPad.storyboard in Resources */,
 				FAFF44E81A0DA8E90017C33E /* fire.png in Resources */,
 				FAE053191A0D9D5B00763314 /* Images.xcassets in Resources */,
 				FAE053111A0D9D5B00763314 /* Main_iPhone.storyboard in Resources */,
@@ -297,14 +293,6 @@
 				FAE053101A0D9D5B00763314 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		FAE053121A0D9D5B00763314 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FAE053131A0D9D5B00763314 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		FAE053281A0D9D5B00763314 /* InfoPlist.strings */ = {

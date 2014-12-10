@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SmokinViewController : UIViewController
+@interface SmokinViewController : UIViewController <NSStreamDelegate>
 
 @end
